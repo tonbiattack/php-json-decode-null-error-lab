@@ -1,0 +1,7 @@
+PASS: JSONのnullはメタデータ削除として扱われる
+PASS: JSONオブジェクトはメタデータ置換として扱われる
+FAIL: 壊れたJSONを削除要求として扱ってはならない
+構文エラーのJSONは呼び出し元へ例外として伝える
+Expected exception: JsonException
+Actual exception: none
+1 test(s) failed.
