@@ -1,0 +1,4 @@
+PASS: JSONのnullはメタデータ削除として扱われる
+PASS: JSONオブジェクトはメタデータ置換として扱われる
+PASS: 壊れたJSONを削除要求として扱ってはならない
+3 test(s) passed.

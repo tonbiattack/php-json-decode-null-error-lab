@@ -11,7 +11,7 @@ final class MetadataPatchDecoder
      */
     public function decode(string $json): array
     {
-        $metadata = json_decode($json, true);
+        $metadata = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
 
         if ($metadata === null) {
             return ['operation' => 'clear', 'metadata' => null];
